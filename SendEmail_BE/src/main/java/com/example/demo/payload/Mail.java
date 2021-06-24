@@ -1,0 +1,1 @@
+package com.example.demo.payload;import lombok.Data;import java.io.Serializable;@Datapublic class Mail implements Serializable {    private static final long serialVersionUID = 4191545180787563172L;    private String mailFrom;    private String mailTo;    private String mailSubject;    private String mailContent;}

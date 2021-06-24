@@ -1,0 +1,1 @@
+package com.example.demo.request;import lombok.Data;import java.io.Serializable;@Datapublic class SendEmailRequest implements Serializable {    private static final long serialVersionUID = -8557999918425712964L;    private String email;}

@@ -1,0 +1,1 @@
+package com.example.demo.services;import com.example.demo.payload.Mail;import com.example.demo.response.Response;public interface IMailService {    Response<Boolean> sendEmail(Mail mail);}
